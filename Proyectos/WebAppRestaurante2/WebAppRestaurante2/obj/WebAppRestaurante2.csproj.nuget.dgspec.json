@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\nahue\\Desktop\\ProyectoSB\\Intento2\\ProyectoSB-2\\Proyectos\\WebAppRestaurante2\\WebAppRestaurante2\\WebAppRestaurante2.csproj": {}
+    "C:\\Users\\nahue\\Desktop\\ProyectoStarBuksAttemp2\\Proyectos\\WebAppRestaurante2\\WebAppRestaurante2\\WebAppRestaurante2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\nahue\\Desktop\\ProyectoSB\\Intento2\\ProyectoSB-2\\Proyectos\\WebAppRestaurante2\\WebAppRestaurante2\\WebAppRestaurante2.csproj": {
+    "C:\\Users\\nahue\\Desktop\\ProyectoStarBuksAttemp2\\Proyectos\\WebAppRestaurante2\\WebAppRestaurante2\\WebAppRestaurante2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\nahue\\Desktop\\ProyectoSB\\Intento2\\ProyectoSB-2\\Proyectos\\WebAppRestaurante2\\WebAppRestaurante2\\WebAppRestaurante2.csproj",
+        "projectUniqueName": "C:\\Users\\nahue\\Desktop\\ProyectoStarBuksAttemp2\\Proyectos\\WebAppRestaurante2\\WebAppRestaurante2\\WebAppRestaurante2.csproj",
         "projectName": "WebAppRestaurante2",
-        "projectPath": "C:\\Users\\nahue\\Desktop\\ProyectoSB\\Intento2\\ProyectoSB-2\\Proyectos\\WebAppRestaurante2\\WebAppRestaurante2\\WebAppRestaurante2.csproj",
+        "projectPath": "C:\\Users\\nahue\\Desktop\\ProyectoStarBuksAttemp2\\Proyectos\\WebAppRestaurante2\\WebAppRestaurante2\\WebAppRestaurante2.csproj",
         "packagesPath": "C:\\Users\\nahue\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\nahue\\Desktop\\ProyectoSB\\Intento2\\ProyectoSB-2\\Proyectos\\WebAppRestaurante2\\WebAppRestaurante2\\obj\\",
+        "outputPath": "C:\\Users\\nahue\\Desktop\\ProyectoStarBuksAttemp2\\Proyectos\\WebAppRestaurante2\\WebAppRestaurante2\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

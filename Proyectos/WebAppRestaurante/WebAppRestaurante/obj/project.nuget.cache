@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "PqvhiEwYmQk=",
+  "dgSpecHash": "60PZC+GbSkc=",
   "success": true,
-  "projectFilePath": "C:\\Users\\nahue\\Desktop\\ProyectoSB\\Intento2\\ProyectoSB-2\\Proyectos\\WebAppRestaurante\\WebAppRestaurante\\WebAppRestaurante.csproj",
+  "projectFilePath": "C:\\Users\\nahue\\Desktop\\ProyectoStarBuksAttemp2\\Proyectos\\WebAppRestaurante\\WebAppRestaurante\\WebAppRestaurante.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\nahue\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\nahue\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",
