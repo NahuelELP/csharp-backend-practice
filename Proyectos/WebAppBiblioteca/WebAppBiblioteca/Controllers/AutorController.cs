@@ -24,12 +24,43 @@ namespace WebAppBiblioteca.Controllers
         [HttpGet("ObtenerPorId/")]
         public async Task<ActionResult> ObtenerPorId(int id)
         {
-            var autorEncontrado= await _context.Autores.FindAsync(id);
-            if(autorEncontrado == null)
+            var autorEncontrado = await _context.Autores.FindAsync(id);
+            if (autorEncontrado == null)
             {
                 return NotFound();
             }
             return Ok(autorEncontrado);
+        }
+        [HttpPost("CrearAutor")]
+        public async Task<ActionResult> CrearAutor(Autor autor)
+        {
+            _context.Autores.Add(autor);
+            await _context.SaveChangesAsync();
+            return CreatedAtAction(nameof(ObtenerPorId), new { id = autor.Id }, autor);
+        }
+        [HttpPut("ActualizarAutor")]
+        public async Task<ActionResult> ActualizarAutor(int id, Autor autor)
+        {
+            var autorEncontrado = await _context.Autores.FindAsync(id);
+            if (autorEncontrado == null)
+            {
+                return NotFound();
+            }
+            autorEncontrado.Nombre = autor.Nombre;
+            await _context.SaveChangesAsync();
+            return NoContent();
+        }
+        [HttpDelete("EliminarAutor")]
+        public async Task<ActionResult> EliminarAutor(int id)
+        {
+            var autorEncontrado = await _context.Autores.FindAsync(id);
+            if (autorEncontrado == null)
+            {
+                return NotFound();
+            }
+            _context.Autores.Remove(autorEncontrado);
+            await _context.SaveChangesAsync();
+            return NoContent();
         }
     }
 }
