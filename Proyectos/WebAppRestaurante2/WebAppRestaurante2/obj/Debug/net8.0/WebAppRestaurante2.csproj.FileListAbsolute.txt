@@ -292,3 +292,16 @@ C:\Users\nahue\Desktop\ProyectoSB\Intento2\ProyectoSB-2\Proyectos\WebAppRestaura
 C:\Users\nahue\Desktop\ProyectoSB\Intento2\ProyectoSB-2\Proyectos\WebAppRestaurante2\WebAppRestaurante2\obj\Debug\net8.0\WebAppRestaurante2.pdb
 C:\Users\nahue\Desktop\ProyectoSB\Intento2\ProyectoSB-2\Proyectos\WebAppRestaurante2\WebAppRestaurante2\obj\Debug\net8.0\WebAppRestaurante2.genruntimeconfig.cache
 C:\Users\nahue\Desktop\ProyectoSB\Intento2\ProyectoSB-2\Proyectos\WebAppRestaurante2\WebAppRestaurante2\obj\Debug\net8.0\ref\WebAppRestaurante2.dll
+C:\Users\nahue\Desktop\ProyectoSB\Intento2\csharp-backend-practice\Proyectos\WebAppRestaurante2\WebAppRestaurante2\obj\Debug\net8.0\WebAppRestaurante2.csproj.AssemblyReference.cache
+C:\Users\nahue\Desktop\ProyectoSB\Intento2\csharp-backend-practice\Proyectos\WebAppRestaurante2\WebAppRestaurante2\obj\Debug\net8.0\rpswa.dswa.cache.json
+C:\Users\nahue\Desktop\ProyectoSB\Intento2\csharp-backend-practice\Proyectos\WebAppRestaurante2\WebAppRestaurante2\obj\Debug\net8.0\WebAppRestaurante2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nahue\Desktop\ProyectoSB\Intento2\csharp-backend-practice\Proyectos\WebAppRestaurante2\WebAppRestaurante2\obj\Debug\net8.0\WebAppRestaurante2.AssemblyInfoInputs.cache
+C:\Users\nahue\Desktop\ProyectoSB\Intento2\csharp-backend-practice\Proyectos\WebAppRestaurante2\WebAppRestaurante2\obj\Debug\net8.0\WebAppRestaurante2.AssemblyInfo.cs
+C:\Users\nahue\Desktop\ProyectoSB\Intento2\csharp-backend-practice\Proyectos\WebAppRestaurante2\WebAppRestaurante2\obj\Debug\net8.0\WebAppRestaurante2.csproj.CoreCompileInputs.cache
+C:\Users\nahue\Desktop\ProyectoSB\Intento2\csharp-backend-practice\Proyectos\WebAppRestaurante2\WebAppRestaurante2\obj\Debug\net8.0\WebAppRestaurante2.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\nahue\Desktop\ProyectoSB\Intento2\csharp-backend-practice\Proyectos\WebAppRestaurante2\WebAppRestaurante2\obj\Debug\net8.0\WebAppRestaurante2.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\nahue\Desktop\ProyectoSB\Intento2\csharp-backend-practice\Proyectos\WebAppRestaurante2\WebAppRestaurante2\obj\Debug\net8.0\WebAppRestaurante2.sourcelink.json
+C:\Users\nahue\Desktop\ProyectoSB\Intento2\csharp-backend-practice\Proyectos\WebAppRestaurante2\WebAppRestaurante2\obj\Debug\net8.0\rjimswa.dswa.cache.json
+C:\Users\nahue\Desktop\ProyectoSB\Intento2\csharp-backend-practice\Proyectos\WebAppRestaurante2\WebAppRestaurante2\obj\Debug\net8.0\WebAppRestaurante2.dll
+C:\Users\nahue\Desktop\ProyectoSB\Intento2\csharp-backend-practice\Proyectos\WebAppRestaurante2\WebAppRestaurante2\obj\Debug\net8.0\refint\WebAppRestaurante2.dll
+C:\Users\nahue\Desktop\ProyectoSB\Intento2\csharp-backend-practice\Proyectos\WebAppRestaurante2\WebAppRestaurante2\obj\Debug\net8.0\WebAppRestaurante2.pdb
