@@ -1,8 +1,0 @@
-C:\Users\nahue\Desktop\ProyectoSB\Intento2\ProyectoSB-2\CompocicionesSOLID\bin\Debug\CompocicionesSOLID.exe.config
-C:\Users\nahue\Desktop\ProyectoSB\Intento2\ProyectoSB-2\CompocicionesSOLID\bin\Debug\CompocicionesSOLID.exe
-C:\Users\nahue\Desktop\ProyectoSB\Intento2\ProyectoSB-2\CompocicionesSOLID\bin\Debug\CompocicionesSOLID.pdb
-C:\Users\nahue\Desktop\ProyectoSB\Intento2\ProyectoSB-2\CompocicionesSOLID\obj\Debug\CompocicionesSOLID.csproj.AssemblyReference.cache
-C:\Users\nahue\Desktop\ProyectoSB\Intento2\ProyectoSB-2\CompocicionesSOLID\obj\Debug\CompocicionesSOLID.csproj.CoreCompileInputs.cache
-C:\Users\nahue\Desktop\ProyectoSB\Intento2\ProyectoSB-2\CompocicionesSOLID\obj\Debug\CompocicionesSOLID.exe
-C:\Users\nahue\Desktop\ProyectoSB\Intento2\ProyectoSB-2\CompocicionesSOLID\obj\Debug\CompocicionesSOLID.pdb
-C:\Users\nahue\Desktop\ProyectoSB\Intento2\ProyectoSB-2\CompocicionesSOLID\obj\Debug\CompocicionesSOLID.exe.config

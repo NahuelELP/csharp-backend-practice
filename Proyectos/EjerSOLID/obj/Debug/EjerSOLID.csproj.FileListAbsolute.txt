@@ -1,7 +1,0 @@
-C:\Users\nahue\Desktop\ProyectoSB\Intento2\ProyectoSB-2\EjerSOLID\bin\Debug\EjerSOLID.exe.config
-C:\Users\nahue\Desktop\ProyectoSB\Intento2\ProyectoSB-2\EjerSOLID\bin\Debug\EjerSOLID.exe
-C:\Users\nahue\Desktop\ProyectoSB\Intento2\ProyectoSB-2\EjerSOLID\bin\Debug\EjerSOLID.pdb
-C:\Users\nahue\Desktop\ProyectoSB\Intento2\ProyectoSB-2\EjerSOLID\obj\Debug\EjerSOLID.csproj.AssemblyReference.cache
-C:\Users\nahue\Desktop\ProyectoSB\Intento2\ProyectoSB-2\EjerSOLID\obj\Debug\EjerSOLID.csproj.CoreCompileInputs.cache
-C:\Users\nahue\Desktop\ProyectoSB\Intento2\ProyectoSB-2\EjerSOLID\obj\Debug\EjerSOLID.exe
-C:\Users\nahue\Desktop\ProyectoSB\Intento2\ProyectoSB-2\EjerSOLID\obj\Debug\EjerSOLID.pdb

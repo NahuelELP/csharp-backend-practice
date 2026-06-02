@@ -1,8 +1,0 @@
-C:\Users\nahue\Desktop\ProyectoSB\Intento2\ProyectoSB-2\Fase3Archivos\bin\Debug\Fase3Archivos.exe.config
-C:\Users\nahue\Desktop\ProyectoSB\Intento2\ProyectoSB-2\Fase3Archivos\bin\Debug\Fase3Archivos.exe
-C:\Users\nahue\Desktop\ProyectoSB\Intento2\ProyectoSB-2\Fase3Archivos\bin\Debug\Fase3Archivos.pdb
-C:\Users\nahue\Desktop\ProyectoSB\Intento2\ProyectoSB-2\Fase3Archivos\obj\Debug\Fase3Archivos.csproj.AssemblyReference.cache
-C:\Users\nahue\Desktop\ProyectoSB\Intento2\ProyectoSB-2\Fase3Archivos\obj\Debug\Fase3Archivos.csproj.CoreCompileInputs.cache
-C:\Users\nahue\Desktop\ProyectoSB\Intento2\ProyectoSB-2\Fase3Archivos\obj\Debug\Fase3Archivos.exe
-C:\Users\nahue\Desktop\ProyectoSB\Intento2\ProyectoSB-2\Fase3Archivos\obj\Debug\Fase3Archivos.pdb
-C:\Users\nahue\Desktop\ProyectoSB\Intento2\ProyectoSB-2\Fase3Archivos\obj\Debug\Fase3Archivos.exe.config

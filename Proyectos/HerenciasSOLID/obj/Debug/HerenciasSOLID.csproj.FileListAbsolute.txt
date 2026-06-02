@@ -1,8 +1,0 @@
-C:\Users\nahue\Desktop\ProyectoSB\Intento2\ProyectoSB-2\HerenciasSOLID\bin\Debug\HerenciasSOLID.exe.config
-C:\Users\nahue\Desktop\ProyectoSB\Intento2\ProyectoSB-2\HerenciasSOLID\bin\Debug\HerenciasSOLID.exe
-C:\Users\nahue\Desktop\ProyectoSB\Intento2\ProyectoSB-2\HerenciasSOLID\bin\Debug\HerenciasSOLID.pdb
-C:\Users\nahue\Desktop\ProyectoSB\Intento2\ProyectoSB-2\HerenciasSOLID\obj\Debug\HerenciasSOLID.csproj.AssemblyReference.cache
-C:\Users\nahue\Desktop\ProyectoSB\Intento2\ProyectoSB-2\HerenciasSOLID\obj\Debug\HerenciasSOLID.csproj.CoreCompileInputs.cache
-C:\Users\nahue\Desktop\ProyectoSB\Intento2\ProyectoSB-2\HerenciasSOLID\obj\Debug\HerenciasSOLID.exe
-C:\Users\nahue\Desktop\ProyectoSB\Intento2\ProyectoSB-2\HerenciasSOLID\obj\Debug\HerenciasSOLID.pdb
-C:\Users\nahue\Desktop\ProyectoSB\Intento2\ProyectoSB-2\HerenciasSOLID\obj\Debug\HerenciasSOLID.exe.config
