@@ -88,7 +88,7 @@ namespace WebAppBiblioteca.Controllers
                 DetallesPrestamoResponse = detallesResponse
             };
             //Devolver la respuesta del préstamo
-            return Ok(prestamoResponse);
+            return Ok(prestamoResponse);//createdAtAction(nameof(ObtenerPrestamoPorId), new { id = prestamo.Id }, prestamoResponse);
         }
         [HttpGet("ObtenerPrestamoPorId/{id}")]
         public async Task<ActionResult<PrestamoResponse>> ObtenerPrestamoPorId(int id)
