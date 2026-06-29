@@ -1,8 +1,8 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using WebAppBiblioteca.Data;
 using WebAppBiblioteca.Models;
+using WebAppBiblioteca.Services.AutorService;
 
 namespace WebAppBiblioteca.Controllers
 {
@@ -10,21 +10,21 @@ namespace WebAppBiblioteca.Controllers
     [ApiController]
     public class AutorController : ControllerBase
     {
-        private readonly AppDbContext _context;
-        public AutorController(AppDbContext context)
+        private readonly IAutorService _autorService;
+        public AutorController(IAutorService autorService)
         {
-            _context = context;
+            _autorService = autorService;
         }
         [HttpGet("ObtenerLista")]
         public async Task<ActionResult<IEnumerable<Autor>>> ObtenerLista()
         {
-            var autores = await _context.Autores.ToListAsync();
+            var autores = await _autorService.ObtenerListaAsync();
             return Ok(autores);
         }
         [HttpGet("ObtenerPorId/")]
         public async Task<ActionResult> ObtenerPorId(int id)
         {
-            var autorEncontrado = await _context.Autores.FindAsync(id);
+            var autorEncontrado = await _autorService.ObtenerPorIdAsync(id);
             if (autorEncontrado == null)
             {
                 return NotFound();
@@ -34,32 +34,31 @@ namespace WebAppBiblioteca.Controllers
         [HttpPost("CrearAutor")]
         public async Task<ActionResult> CrearAutor(Autor autor)
         {
-            _context.Autores.Add(autor);
-            await _context.SaveChangesAsync();
-            return CreatedAtAction(nameof(ObtenerPorId), new { id = autor.Id }, autor);
+            var autorCreado = await _autorService.CrearAsync(autor);
+            if (autorCreado == null)
+            {
+                return BadRequest("Ya existe un autor con el mismo nombre.");
+            }
+            return CreatedAtAction(nameof(ObtenerPorId), new { id = autorCreado.Id }, autorCreado);
         }
-        [HttpPut("ActualizarAutor")]
+        [HttpPut("ActualizarAutor/{id}")]
         public async Task<ActionResult> ActualizarAutor(int id, Autor autor)
         {
-            var autorEncontrado = await _context.Autores.FindAsync(id);
-            if (autorEncontrado == null)
+            var autorActualizado = await _autorService.ActualizarAsync(id, autor);
+            if (!autorActualizado)
             {
                 return NotFound();
             }
-            autorEncontrado.Nombre = autor.Nombre;
-            await _context.SaveChangesAsync();
             return NoContent();
         }
         [HttpDelete("EliminarAutor")]
         public async Task<ActionResult> EliminarAutor(int id)
         {
-            var autorEncontrado = await _context.Autores.FindAsync(id);
-            if (autorEncontrado == null)
+            var autorEliminado = await _autorService.EliminarAsync(id);
+            if (!autorEliminado)
             {
                 return NotFound();
             }
-            _context.Autores.Remove(autorEncontrado);
-            await _context.SaveChangesAsync();
             return NoContent();
         }
     }

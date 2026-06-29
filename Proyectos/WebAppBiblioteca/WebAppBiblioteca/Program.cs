@@ -1,5 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using WebAppBiblioteca.Data;
+using WebAppBiblioteca.Services;
+using WebAppBiblioteca.Services.AutorService;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -7,6 +9,8 @@ var builder = WebApplication.CreateBuilder(args);
 var connectionString = builder.Configuration.GetConnectionString("Connection");
 builder.Services.AddDbContext<AppDbContext>(options => options.UseSqlServer(connectionString));
 
+builder.Services.AddScoped<ILectorService, LectorService>();
+builder.Services.AddScoped<IAutorService, AutorService>();
 
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
