@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using WebAppBiblioteca.Data;
+using WebAppBiblioteca.Services.LibroService;
 using WebAppBiblioteca.Models;
 
 namespace WebAppBiblioteca.Controllers
@@ -10,21 +10,21 @@ namespace WebAppBiblioteca.Controllers
     [ApiController]
     public class LibroController : ControllerBase
     {
-        readonly AppDbContext _context;
-        public LibroController(AppDbContext context)
+        private readonly ILibroService _libroService;
+        public LibroController(ILibroService libroService)
         {
-            _context = context;
+            _libroService = libroService;
         }
         [HttpGet("ObtenerLista")]
         public async Task<ActionResult<IEnumerable<Libro>>> ObtenerLista()
         {
-            var libros = await _context.Libros.ToListAsync();
+            var libros = await _libroService.ObtenerAsync();
             return Ok(libros);
         }
         [HttpGet("ObtenerPorId/{id}")]
         public async Task<ActionResult> ObtenerPorId(int id)
         {
-            var libroEncontrado = await _context.Libros.FindAsync(id);
+            var libroEncontrado = await _libroService.ObtenerPorIdAstync(id);
             if (libroEncontrado == null)
             {
                 return NotFound();
@@ -34,34 +34,27 @@ namespace WebAppBiblioteca.Controllers
         [HttpPost("CrearLibro")]
         public async Task<ActionResult> CrearLibro(Libro libro)
         {
-            _context.Libros.Add(libro);
-            await _context.SaveChangesAsync();
+            await _libroService.CrearAsync(libro);
             return CreatedAtAction(nameof(ObtenerPorId), new { id = libro.Id }, libro);
         }
         [HttpPut("ActualizarLibro/{id}")]
         public async Task<ActionResult> ActualizarLibro(int id, Libro libro)
         {
-            var libroEncontrado = await _context.Libros.FindAsync(id);
-            if (libroEncontrado == null)
+            var libroEncontrado = await _libroService.ActualizarAsync(id, libro);
+            if (!libroEncontrado)
             {
                 return NotFound();
             }
-            libroEncontrado.Titulo = libro.Titulo;
-            libroEncontrado.Autor = libro.Autor;
-            libroEncontrado.AñoPublicado = libro.AñoPublicado;
-            await _context.SaveChangesAsync();
             return NoContent();
         }
         [HttpDelete("EliminarLibro/{id}")]
         public async Task<ActionResult> EliminarLibro(int id)
         {
-            var libroEncontrado = await _context.Libros.FindAsync(id);
-            if (libroEncontrado == null)
+            var libroEncontrado = await _libroService.EliminarLibro(id);
+            if (!libroEncontrado)
             {
                 return NotFound();
             }
-            _context.Libros.Remove(libroEncontrado);
-            await _context.SaveChangesAsync();
             return NoContent();
         }
     }

@@ -28,7 +28,7 @@ namespace WebAppBiblioteca.Services.AutorService
             {
                 return null; // Autor con el mismo nombre ya existe
             }
-            _context.Autores.Add(autor);
+            await _context.Autores.AddAsync(autor);
             await _context.SaveChangesAsync();
             return autor;
         }
